@@ -13,14 +13,13 @@ This project is deployed using Render.
 
 ## 🔥 About the Story
 <img width="1268" height="673" alt="wolf_hunter_story" src="https://github.com/user-attachments/assets/b85e3b5d-b7c9-4b20-b796-f990645146e9" />
-Why Wolf Hunter ?
+###Why Wolf Hunter ?
 Inspired by a cyberpunk aesthetic, this project is set in a near-future high-rise city modeled after Taipei’s Xinyi Planning District. Through team discussions, we decided on a direction that incorporates action, car chases, and lighthearted comedic elements.
 
-
-What Is Wolf Hunter?
+###What Is Wolf Hunter?
 Eagle, a hero who soars through the skies of City X, detects suspicious movements by his longtime enemy, Wolfman, and receives orders to deploy. Meanwhile, Wolfman is assigned a new mission at his base and heads toward his destination by taxi through the city.
 
-About Story
+###About Story
 Along the way, Eagle discovers Wolfman, triggering an intense pursuit. Wolfman fights back from inside the vehicle while threatening Yagi, the taxi driver. As the battle escalates, the car falls into a dangerous situation. Eagle rescues Yagi and continues the chase, eventually subduing Wolfman. After receiving a new mission briefing, Eagle takes off toward his next battle.
 
 ## 🔎 Contact Me
