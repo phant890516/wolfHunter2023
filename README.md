@@ -26,7 +26,7 @@ Along the way, Eagle discovers Wolfman, triggering an intense pursuit. Wolfman f
 ## 🔥 Character
 
 ### Eagle Hero
-<img width="1757" height="2510" alt="eagle_file" src="https://github.com/user-attachments/assets/2fbb1ab7-1ead-4eba-befd-a1463368774b" />
+<img width="1000" height="1049" alt="eagle_file" src="https://github.com/user-attachments/assets/2fbb1ab7-1ead-4eba-befd-a1463368774b" />
 
 ### Wolfman
 <img width="1760" height="2354" alt="wolf_file" src="https://github.com/user-attachments/assets/6939164e-86a9-4f41-a6c1-03d50619a7ee" />
