@@ -29,10 +29,10 @@ Along the way, Eagle discovers Wolfman, triggering an intense pursuit. Wolfman f
 <img width="400" height="600" alt="eagle_file" src="https://github.com/user-attachments/assets/2fbb1ab7-1ead-4eba-befd-a1463368774b" />
 
 ### Wolfman
-<img width="1760" height="2354" alt="wolf_file" src="https://github.com/user-attachments/assets/6939164e-86a9-4f41-a6c1-03d50619a7ee" />
+<img width="400" height="600" alt="wolf_file" src="https://github.com/user-attachments/assets/6939164e-86a9-4f41-a6c1-03d50619a7ee" />
 
 ### Goat Driver
-<img width="1758" height="2099" alt="goat_file" src="https://github.com/user-attachments/assets/6ab11a2f-31c8-441b-a487-fa11dd50d6c9" />
+<img width="400" height="600" alt="goat_file" src="https://github.com/user-attachments/assets/6ab11a2f-31c8-441b-a487-fa11dd50d6c9" />
 
 ## 🔎 Contact Me
 
