@@ -16,6 +16,7 @@ This project is deployed using Render.
 Why Wolf Hunter ?
 Inspired by a cyberpunk aesthetic, this project is set in a near-future high-rise city modeled after Taipei’s Xinyi Planning District. Through team discussions, we decided on a direction that incorporates action, car chases, and lighthearted comedic elements.
 
+
 What Is Wolf Hunter?
 Eagle, a hero who soars through the skies of City X, detects suspicious movements by his longtime enemy, Wolfman, and receives orders to deploy. Meanwhile, Wolfman is assigned a new mission at his base and heads toward his destination by taxi through the city.
 
