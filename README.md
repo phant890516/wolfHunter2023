@@ -11,7 +11,7 @@ https://wolfhunter2023.onrender.com/
 (The server may automatically redeploy depending on Render’s conditions.)
 This project is deployed using Render.
 
-## 🔥 About the Story
+## 📖 About the Story
 <img width="1268" height="673" alt="wolf_hunter_story" src="https://github.com/user-attachments/assets/b85e3b5d-b7c9-4b20-b796-f990645146e9" />
 
 ### Why Wolf Hunter ?
@@ -22,6 +22,17 @@ Eagle, a hero who soars through the skies of City X, detects suspicious movement
 
 ### About Story
 Along the way, Eagle discovers Wolfman, triggering an intense pursuit. Wolfman fights back from inside the vehicle while threatening Yagi, the taxi driver. As the battle escalates, the car falls into a dangerous situation. Eagle rescues Yagi and continues the chase, eventually subduing Wolfman. After receiving a new mission briefing, Eagle takes off toward his next battle.
+
+## 🔥 Character
+
+### Eagle Hero
+<img width="1757" height="2510" alt="eagle_file" src="https://github.com/user-attachments/assets/2fbb1ab7-1ead-4eba-befd-a1463368774b" />
+
+### Wolfman
+<img width="1760" height="2354" alt="wolf_file" src="https://github.com/user-attachments/assets/6939164e-86a9-4f41-a6c1-03d50619a7ee" />
+
+### Goat Driver
+<img width="1758" height="2099" alt="goat_file" src="https://github.com/user-attachments/assets/6ab11a2f-31c8-441b-a487-fa11dd50d6c9" />
 
 ## 🔎 Contact Me
 
