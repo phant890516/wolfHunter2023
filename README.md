@@ -13,6 +13,7 @@ This project is deployed using Render.
 
 ## 🔥 About the Story
 <img width="1268" height="673" alt="wolf_hunter_story" src="https://github.com/user-attachments/assets/b85e3b5d-b7c9-4b20-b796-f990645146e9" />
+
 ### Why Wolf Hunter ?
 Inspired by a cyberpunk aesthetic, this project is set in a near-future high-rise city modeled after Taipei’s Xinyi Planning District. Through team discussions, we decided on a direction that incorporates action, car chases, and lighthearted comedic elements.
 
