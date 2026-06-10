@@ -1,7 +1,6 @@
 "use client";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import ReactLenis from "@studio-freight/react-lenis";
 import { useRef, useState, useEffect} from "react";
 import Footer from "./component/Footer";
 import Link from "next/link";
@@ -71,7 +70,7 @@ export default function Home() {
 
 
   return (
-    <ReactLenis root>
+    <>
     <div className="home">
      <main>
     <section className="section1">  
@@ -183,6 +182,6 @@ export default function Home() {
     </section>
 </main>
     </div>
-    </ReactLenis>
+    </>
     );
 }

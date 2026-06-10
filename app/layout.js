@@ -2,7 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./list.css";
 import "./page.css";
-import {ViewTransitions} from "next-view-transitions";
 import Nav from "./component/Nav";
 
 const geistSans = Geist({
@@ -22,13 +21,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ViewTransitions>
     <html lang="ja">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Nav />
         <div className="pt-[85px]">{children}</div>
       </body>
     </html>
-    </ViewTransitions>
   );
 }

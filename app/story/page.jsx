@@ -1,5 +1,4 @@
 "use client";
-import ReactLenis from "@studio-freight/react-lenis";
 import { useRef, useState, useEffect} from "react";
 import Link from "next/link";
 
@@ -67,7 +66,7 @@ export default function Home() {
 
 
   return (
-    <ReactLenis root>
+    <>
     <div className="home">
      <main>
     <section className="section1">
@@ -151,8 +150,8 @@ export default function Home() {
             </div>
         </div>
     </section>
-</main>
+    </main>
     </div>
-    </ReactLenis>
+    </>
     );
 }

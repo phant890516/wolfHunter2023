@@ -1,10 +1,22 @@
 "use client";
-import { useTransitionRouter } from "next-view-transitions";
+import { useRouter, usePathname } from "next/navigation";
+import { useEffect, useRef } from "react";
 
 // import Link from "next/link"
 
 const Nav =()=>{
-    const router = useTransitionRouter();
+    const router = useRouter();
+    const pathname = usePathname();
+    const pathnameRef = useRef(pathname);
+    const resolveNavRef = useRef(null);
+
+    useEffect(() => {
+        pathnameRef.current = pathname;
+        if (resolveNavRef.current) {
+            resolveNavRef.current();
+            resolveNavRef.current = null;
+        }
+    }, [pathname]);
 //////////////////////////////////////////////////////////////paging animation//////////////////////////////////////////////////////////////////////////////
     function slideInOut(){
         document.documentElement.animate([
@@ -41,7 +53,25 @@ const Nav =()=>{
         }
         );
     }
-//////////////////////////////////////////////////////////////////////Home Page///////////////////////////////////////////////////////////////////////////////////////    
+
+    function navigate(path){
+        if (path === pathnameRef.current) return;
+        if (typeof document === "undefined" || !document.startViewTransition) {
+            router.push(path);
+            return;
+        }
+        const transition = document.startViewTransition(() => {
+            return new Promise((resolve) => {
+                resolveNavRef.current = resolve;
+                router.push(path);
+                // 保險：若導航逾時仍未完成，避免 view transition 一直卡著
+                setTimeout(resolve, 1000);
+            });
+        });
+        transition.ready.then(slideInOut).catch(() => {});
+        transition.finished.catch(() => {});
+    }
+//////////////////////////////////////////////////////////////////////Home Page///////////////////////////////////////////////////////////////////////////////////////
     return(
         <nav className="flex flex-row gap-[600px] z-50 fixed bg-black h-[85px]">
             <div className="logo grid place-items-center">
@@ -49,10 +79,8 @@ const Nav =()=>{
                     <a 
                     onClick={(e)=>{
                         e.preventDefault();
-                        router.push("/",{
-                            onTransitionReady: slideInOut,
-                        });
-                    }} 
+                        navigate("/");
+                    }}
                     href="/">
                     <img src="./images/top_logo.png"></img>
                     </a>
@@ -63,40 +91,32 @@ const Nav =()=>{
                     <a 
                     onClick={(e)=>{
                         e.preventDefault();
-                        router.push("/story",{
-                            onTransitionReady: slideInOut,
-                        });
-                    }} 
+                        navigate("/story");
+                    }}
                     href="/story">STORY</a>
                 </div>
                 <div className="link block my-auto">
                     <a 
                     onClick={(e)=>{
                         e.preventDefault();
-                        router.push("/eagle",{
-                            onTransitionReady: slideInOut,
-                        });
-                    }} 
+                        navigate("/eagle");
+                    }}
                     href="/eagle">HERO</a>
                 </div>
                 <div className="link block my-auto">
                     <a 
                     onClick={(e)=>{
                         e.preventDefault();
-                        router.push("/wolfman",{
-                            onTransitionReady: slideInOut,
-                        });
-                    }} 
+                        navigate("/wolfman");
+                    }}
                     href="/wolfman">WOLFMAN</a>
                 </div>
                 <div className="link block my-auto">
                     <a 
                     onClick={(e)=>{
                         e.preventDefault();
-                        router.push("/goatdriver",{
-                            onTransitionReady: slideInOut,
-                        });
-                    }} 
+                        navigate("/goatdriver");
+                    }}
                     href="/goatdriver">DRIVER</a>
                 </div>
             </div>
