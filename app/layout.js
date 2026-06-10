@@ -23,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <ViewTransitions>
-    <html lang="en">
+    <html lang="ja">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Nav />
         <div className="pt-[85px]">{children}</div>

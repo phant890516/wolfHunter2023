@@ -61,7 +61,7 @@ const Wolfman = () => {
                 {/* 標題區塊 */}
                 <div className={`p-6 md:p-10 bg-${themeColor}-900/20 border-b border-${themeColor}-700/50`}>
                     <h1 className={`text-3xl md:text-5xl font-bold uppercase ${themeColorClass} tracking-widest text-red-neon`} style={textNeonStyle}>
-                        檔案編號：{fileId} | {name}
+                        キャラクターコード：{fileId} | {name}
                     </h1>
                     <p className="text-lg md:text-xl mt-1 text-gray-300">{subtitle}</p>
                 </div>
