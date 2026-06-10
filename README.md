@@ -1,4 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## ✨ Wolf Hunter
+
+<img width="1217" height="620" alt="wolf_hunter_page" src="https://github.com/user-attachments/assets/148eafe1-c00f-4ae2-ac21-f4fae9a9dcf8" />
+This project is built using Next.Js, Tailwind CSS.
+It introduces my 3D animation project of wolf hunter made in 2023.
+
+## 💻 Live Site URL
+
+https://wolfhunter2023.onrender.com/
+
+(The server may automatically redeploy depending on Render’s conditions.)
+This project is deployed using Render.
+
+## 📖 About the Story
+<img width="1268" height="673" alt="wolf_hunter_story" src="https://github.com/user-attachments/assets/b85e3b5d-b7c9-4b20-b796-f990645146e9" />
+
+### Why Wolf Hunter ?
+Inspired by a cyberpunk aesthetic, this project is set in a near-future high-rise city modeled after Taipei’s Xinyi Planning District. Through team discussions, we decided on a direction that incorporates action, car chases, and lighthearted comedic elements.
+
+### What Is Wolf Hunter?
+Eagle, a hero who soars through the skies of City X, detects suspicious movements by his longtime enemy, Wolfman, and receives orders to deploy. Meanwhile, Wolfman is assigned a new mission at his base and heads toward his destination by taxi through the city.
+
+### About Story
+Along the way, Eagle discovers Wolfman, triggering an intense pursuit. Wolfman fights back from inside the vehicle while threatening Yagi, the taxi driver. As the battle escalates, the car falls into a dangerous situation. Eagle rescues Yagi and continues the chase, eventually subduing Wolfman. After receiving a new mission briefing, Eagle takes off toward his next battle.
+
+## 🔥 Character
+
+### Eagle Hero
+<img width="400" height="600" alt="eagle_file" src="https://github.com/user-attachments/assets/2fbb1ab7-1ead-4eba-befd-a1463368774b" />
+
+### Wolfman
+<img width="400" height="600" alt="wolf_file" src="https://github.com/user-attachments/assets/6939164e-86a9-4f41-a6c1-03d50619a7ee" />
+
+### Goat Driver
+<img width="400" height="600" alt="goat_file" src="https://github.com/user-attachments/assets/6ab11a2f-31c8-441b-a487-fa11dd50d6c9" />
+
+## 🔎 Contact Me
+
+The website includes a contact form that allows visitors to send messages directly.
+For any questions, feedback, or comments (other than bug reports), feel free to reach out through the form.
 
 ## Getting Started
 
@@ -19,18 +58,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
