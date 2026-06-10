@@ -71,14 +71,6 @@ export default function Home() {
     <div className="home">
      <main>
     <section className="section1">
-        {/* <div className="main_img overflow-hidden w-full h-[100vh]">
-            <iframe width="560" height="315" className="w-full h-full object-contain"
-            src="https://www.youtube.com/embed/wuDmACy10ok?si=3688gA4dA3hPxLkX"
-            title="YouTube video player" frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen>
-            </iframe>
-        </div> */}
         <div className="main_img w-full h-[100vh] md:h-screen overflow-hidden">
             <video
                 className="w-full h-full object-cover"
